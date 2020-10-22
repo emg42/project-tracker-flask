@@ -78,7 +78,7 @@ def get_project_by_title(title):
 
 def get_grade_by_github_title(github, title):
     """Print grade student received for a project."""
-
+  
     QUERY = """
         SELECT grade
         FROM grades
